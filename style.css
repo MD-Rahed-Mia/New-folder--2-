@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #A5C3F5;
+}
+
+h1 {
+  color: #21395F;
+}
+
+form {
+  margin: 0 auto;
+}
+
+form input {
+  width: 85%;
+}
+
+form > div {
+  margin: 0 auto;
+  background-color: #21395F;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.wrapper {
+  min-height: 500px;
+  width: 450px;
+  background-color: #3D8EB9;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
+}
+
+.lock {
+  font-size: 2rem;
+  color: #21395F;
+  margin-top: 20px;
+}

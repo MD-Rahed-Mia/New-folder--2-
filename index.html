@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in for access</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="p-4 border text-center wrapper d-flex flex-column justify-content-center rounded">
+        <h1>Admin Login</h1>
+
+        <i class="fa-solid lock fa-lock"></i>
+        <form class="w-75 pt-2 pb-2 mt-5 py-5 rounded">
+            <div class="user-name w-100 p-2">
+                <input type="text" name="username" value="" placeholder="username" class="p-1 bg-transparent text-white"
+                    required>
+                <i class="fa-solid text-white fa-user"></i>
+            </div>
+            <div class=" w-100 p-2 mt-3">
+                <input type="password" name="username" value="" placeholder="password"
+                    class="p-1 bg-transparent text-white" required>
+                    <i class="fa-solid text-white fa-eye-slash"></i>
+            </div>
+            <a href="#forget-password" class="d-block text-end w-100 mt-2 text-dark">forget password?</a>
+
+            <button type="submit" class="btn px-5 btn-primary text-left d-block mt-3">Log in</button>
+        </form>
+    </div>
+</body>
+
+</html>
